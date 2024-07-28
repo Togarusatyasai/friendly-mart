@@ -1,5 +1,8 @@
 import React from "react";
 import "./Vegetable.css";
+import Nav from "./Nav";
+import Footer from "./Footer";
+
 const Vegetables =()=>{
     return(
         <>
@@ -68,6 +71,8 @@ const Vegetables =()=>{
         <p>Copyright@2024-2027.FriendlyMart...</p>
     </div>
     </footer> */}
+    <Nav></Nav>
+
     <div className="veges">
             <figure>
               <a href="#"> 
@@ -217,6 +222,7 @@ const Vegetables =()=>{
             
             
             </div>
+            <Footer></Footer>
        
 
         </>
