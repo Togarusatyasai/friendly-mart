@@ -96,7 +96,7 @@ body{
 }
 @keyframes slider{
     0%{
-        background-image: url(labell_page-0001.jpg);
+        background-image: url("https://i.ibb.co/Vv4nZDx/labell-page-0001-1.jpg" );
     }
     30%{
         background-image: url("https://t3.ftcdn.net/jpg/01/47/51/60/360_F_147516063_hCXI8VUIdBYud0B0hhS3Yo5CFTT1a4g8.jpg");
