@@ -125,7 +125,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/QmbLc" alt="Sorry"/>
+             <img className="images" src="https://th.bing.com/th/id/OIP.orTWDkgY0-FFuGP1J8P6oQHaHa?rs=1&pid=ImgDetMain" alt="Sorry"/>
              </a>
              <figcaption> Beetroot
              <br></br>
@@ -134,7 +134,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/5qKP6" alt="Sorry"/>
+             <img className="images" src="https://th.bing.com/th/id/OIP.zB7AATBDNYVwv3rUfXbYcwHaE8?rs=1&pid=ImgDetMain" alt="Sorry"/>
              </a>
              <figcaption>Potato
              <br></br>
@@ -152,7 +152,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/BEXAE" alt="Sorry"/>
+             <img className="images" src="https://www.pngmart.com/files/7/Lady-Finger-Transparent-PNG.png" alt="Sorry"/>
              </a>
              <figcaption>Ladies Finger
              <br></br>
@@ -179,7 +179,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/FKXM6" alt="Sorry"/>
+             <img className="images" src="https://www.farmstop.in/admin/uploads/product_variation_images/736370470831351348672083green-hot-chili-peppers-isolated-white.jpg" alt="Sorry"/>
              </a>
              <figcaption>Green Chillies
              <br></br>
@@ -188,7 +188,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/0q45D" alt="Sorry"/>
+             <img className="images" src="https://th.bing.com/th/id/R.9af7646cd2c518ec98eb04ab80a37ce9?rik=QZEhqzAlMe09eg&riu=http%3a%2f%2fwww.farmhouse.com.pk%2fwp-content%2fuploads%2f2017%2f03%2fbitter-gourd.jpeg&ehk=Pp3rfCat3wwWE2tO35aRMvwiScNZUXhw5hIkSApEODQ%3d&risl=&pid=ImgRaw&r=0" alt="Sorry"/>
              </a>
              <figcaption>Bitter Gourd
              <br></br>
@@ -197,7 +197,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/j1Pq7" alt="Sorry"/>
+             <img className="images" src="https://th.bing.com/th/id/OIP.2RwzgJIXMd5UG-nwxk8RfgHaHa?w=750&h=750&rs=1&pid=ImgDetMain" alt="Sorry"/>
              </a>
              <figcaption>Beans
              <br></br>
@@ -206,7 +206,7 @@ const Vegetables =()=>{
             </figure>
             <figure>
              <a href="#"> 
-             <img className="images" src="https://shorturl.at/q1RiJ" alt="Sorry"/>
+             <img className="images" src="https://cdn.shopify.com/s/files/1/1380/2059/products/Radish-Pink.jpg?v=1483533860" alt="Sorry"/>
              </a>
              <figcaption>Raddish
              <br></br>
