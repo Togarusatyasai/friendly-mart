@@ -134,6 +134,34 @@ const Home = ()=> {
             <figcaption>₹ 150/kg</figcaption>
         </figure>
     </div>
+    <h1 id="sub_head">Meat</h1>
+    <div className="main_fig">
+        <figure>
+            <a href="#"><img className="imgs" src="https://tawaqqo.com/wp-content/uploads/2020/04/Untitled-design-8.png" /></a>
+            <figcaption>Chicken</figcaption>
+            <figcaption>₹ 240/kg</figcaption> 
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="http://upload.wikimedia.org/wikipedia/commons/f/fd/Western-pack-butter.jpg" /></a>
+            <figcaption>Butter</figcaption>
+            <figcaption>₹ 250/kg</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.cEB4Wzl40jshh6fgDZ2naAHaHa&pid=Api&P=0&h=180" /></a>
+            <figcaption>Ghee</figcaption>
+            <figcaption>₹ 550/kg</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://tse2.mm.bing.net/th?id=OIP.2um5tSF6wlZrZEJTf92jGwHaE8&pid=Api&P=0&h=180" /></a>
+            <figcaption>Panner</figcaption>
+            <figcaption>₹ 450/kg</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://i.ytimg.com/vi/a7DfUyBqjxU/maxresdefault.jpg" /></a>
+            <figcaption>Curd</figcaption>
+            <figcaption>₹ 150/kg</figcaption>
+        </figure>
+    </div>
 </main>
 <hr/>
 <footer>
