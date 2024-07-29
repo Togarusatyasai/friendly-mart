@@ -65,5 +65,6 @@
     }
     .n2:hover{
        color: #009a6e;
+       scale: 1.1;
     }
 }

@@ -72,6 +72,7 @@ body{
     }
     .n2:hover{
        color: #009a6e;
+       scale: 1.1;
     }
 }
 
@@ -151,8 +152,8 @@ body{
 
 
 footer{
-    background-color: #009a6e;
-    color: white;
+    background-color: #efd7cf;
+    color: #58508d;
 }
 
 .foot{
