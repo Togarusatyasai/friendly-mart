@@ -5,7 +5,7 @@ const Nav = ()=>{
         <>
         <header className="nav">
         <div className="nav1">
-        <img className="inav1" src="http://127.0.0.1:5501/fm1.png" />
+        <img className="inav1" src="https://i.ibb.co/qytkQJ1/fm1.png" />
         <div className="int">
             <input className="inp" type="text" name="search" placeholder="Search here.." />
             <a href=""><i className="fa fa-search " aria-hidden="true"></i></a>
