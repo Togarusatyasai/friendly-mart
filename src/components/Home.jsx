@@ -5,10 +5,10 @@ const Home = ()=> {
         <>
      <header className="nav">
         <div className="nav1">
-        <img className="inav1" src="http://127.0.0.1:5501/fm1.png" />
+        <img className="inav1" src="https://i.ibb.co/qytkQJ1/fm1.png" />
         <div className="int">
             <input className="inp" type="text" name="search" placeholder="Search here.." />
-            <a href=""><i className="fa fa-search " aria-hidden="true"></i></a>
+            <a href="https://www.google.co.in/webhp"><i className="fa fa-search " aria-hidden="true"></i></a>
         </div>
     </div>
     <div className="nav2">
@@ -142,26 +142,85 @@ const Home = ()=> {
             <figcaption>₹ 240/kg</figcaption> 
         </figure>
         <figure>
-            <a href="#"><img className="imgs" src="http://upload.wikimedia.org/wikipedia/commons/f/fd/Western-pack-butter.jpg" /></a>
-            <figcaption>Butter</figcaption>
-            <figcaption>₹ 250/kg</figcaption>
+            <a href="#"><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.5hg5r0m5p09X5-jYKMouAgHaHa&pid=Api&P=0&h=180" /></a>
+            <figcaption>Mutton</figcaption>
+            <figcaption>₹ 800/kg</figcaption>
         </figure>
         <figure>
-            <a href="#"><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.cEB4Wzl40jshh6fgDZ2naAHaHa&pid=Api&P=0&h=180" /></a>
-            <figcaption>Ghee</figcaption>
-            <figcaption>₹ 550/kg</figcaption>
+            <a href="#"><img className="imgs" src="https://cdn.shopify.com/s/files/1/0071/5151/7766/products/image3_1200x1200.jpeg?v=1558359670" /></a>
+            <figcaption>Prawns</figcaption>
+            <figcaption>₹ 500/kg</figcaption>
         </figure>
         <figure>
-            <a href="#"><img className="imgs" src="https://tse2.mm.bing.net/th?id=OIP.2um5tSF6wlZrZEJTf92jGwHaE8&pid=Api&P=0&h=180" /></a>
-            <figcaption>Panner</figcaption>
-            <figcaption>₹ 450/kg</figcaption>
-        </figure>
-        <figure>
-            <a href="#"><img className="imgs" src="https://i.ytimg.com/vi/a7DfUyBqjxU/maxresdefault.jpg" /></a>
-            <figcaption>Curd</figcaption>
+            <a href="#"><img className="imgs" src="https://tse1.mm.bing.net/th?id=OIP.5Y71QrTpud6p7jj2wGz1ggHaE8&pid=Api&P=0&h=180" /></a>
+            <figcaption>Fish</figcaption>
             <figcaption>₹ 150/kg</figcaption>
         </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://tse1.mm.bing.net/th?id=OIP.zX4iQ8H7BC94Rbv3enmE7gHaE7&pid=Api&P=0&h=180" /></a>
+            <figcaption>Eggs</figcaption>
+            <figcaption>₹ 180/kg</figcaption>
+        </figure>
     </div>
+    <h1 id="sub_head">Bakery Items</h1>
+    <div className="main_fig">
+        <figure>
+            <a href="#"><img className="imgs" src="https://tse2.mm.bing.net/th?id=OIP.vQypvmpwtoLm-fhvpOA3wQHaEm&pid=Api&P=0&h=180" /></a>
+            <figcaption>Bread</figcaption>
+            <figcaption>₹ 50rs</figcaption> 
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://i2.wp.com/completelydelicious.com/wp-content/uploads/2021/02/yeast-raised-doughnuts-6.jpg" /></a>
+            <figcaption>Donutes</figcaption>
+            <figcaption>₹ 75rs</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://sugargeekshow.com/wp-content/uploads/2020/04/buttermilk-biscuits-featured-768x768.jpg" /></a>
+            <figcaption>Biscuktes</figcaption>
+            <figcaption>₹ 100rs</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg" /></a>
+            <figcaption>Cake</figcaption>
+            <figcaption>₹ 750/kg</figcaption>
+        </figure>
+        <figure>
+            <a href="#"><img className="imgs" src="https://th.bing.com/th/id/OIP.LcNPHt8pMZyN7WEAywSaIAHaHa?rs=1&pid=ImgDetMain" /></a>
+            <figcaption>Egg Puff</figcaption>
+            <figcaption>₹ 25rs</figcaption>
+        </figure>
+    </div>
+
+    <h1 id="sub_head">Rice</h1>
+        <div className="main_fig">
+            <figure >
+               <a href=""> <img className="imgs" src="https://st.depositphotos.com/2451847/3181/i/950/depositphotos_31812997-stock-photo-rice-in-gunny-bag-with.jpg"/></a>
+                <figcaption>White Rice</figcaption>
+                <figcaption>₹ 50/kg</figcaption>
+            </figure>
+            <figure>
+             <a href="">  <img className="imgs" src="https://thumbs.dreamstime.com/b/rice-sack-bag-white-background-44729981.jpg" /></a>
+                <figcaption>Brown Rice</figcaption>
+                <figcaption>₹ 150/kg</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://previews.123rf.com/images/antpkr/antpkr1601/antpkr160100061/51238321-red-rice-in-sack-bag.jpg" /></a>
+                <figcaption>Black Rice</figcaption>
+                <figcaption>₹ 150/kg</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://www.forestwholefoods.co.uk/wp-content/uploads/2017/04/Organic-Short-Grain-Brown-Rice-1500px.jpg" /></a>
+                <figcaption>Brown ShortGrain</figcaption>
+                <figcaption>₹ 100/kg</figcaption>
+            </figure>
+            <figure>
+             <a href="">   <img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.njJF2nVksFfbHbzt_w2DMAHaD6&pid=Api&P=0&h=180" /></a>
+                <figcaption>Rose Matt</figcaption>
+                <figcaption>₹ 150/kg</figcaption>
+            </figure>
+        </div>
+
+
 </main>
 <hr/>
 <footer>
