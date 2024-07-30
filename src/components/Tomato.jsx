@@ -1,6 +1,6 @@
-import "./Tamato.css";
+import "./Tomato.css";
 
-const Tamato = () => {
+const Tomato = () => {
   return (
   
       <>
@@ -38,4 +38,4 @@ const Tamato = () => {
   );
 
 }
-export default Tamato;
+export default Tomato;

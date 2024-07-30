@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:  #105d5e;
+    background-color:  #59dddf;
     color: blue;
     height: 10vh;
     position: sticky;
@@ -65,7 +65,7 @@ body{
     text-decoration: none;
     font-size: 20px;
     background: transparent;
-    color: #4D7111;
+    color: #172305;
     i{
         margin-right:10px ;
     }
@@ -110,7 +110,7 @@ body{
     }
 }
 #sub_head{
-    margin-left: 330px;
+    margin-left: 250px;
     font-family: sans-serif;
 }
 
@@ -125,7 +125,7 @@ body{
         height: 27vh;
         width: 10vw;
         border-radius:5px ;
-        box-shadow: -20px 30px 20px rgba(75, 58, 58, 0.3);
+        box-shadow: -10px 20px 20px rgba(75, 58, 58, 0.3);
     }
     .imgs{
         width: 10vw;

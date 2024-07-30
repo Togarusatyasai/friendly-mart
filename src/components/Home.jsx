@@ -1,7 +1,8 @@
  import React from "react";
 import "./Home.css";
-import "./Dropdown";
-import Dropdown from "./Dropdown";
+import Categories from "./Categories";
+import { Link } from "react-router-dom";
+
 const Home = ()=> {
     return(
         <>
@@ -14,11 +15,11 @@ const Home = ()=> {
         </div>
     </div>
     <div className="nav2">
-        <a className="n2" href="http://localhost:5173/#"><i className="fa-solid fa-house"></i>Home</a>
-        <a className="n2" href="#">
-            <i className="fa-solid fa-layer-group"></i><Dropdown></Dropdown></a>
+        <a className="n2" href="http://localhost:5173/#"><i className="fa-solid fa-house"></i><link to="/home">Home</link></a>
+        <a className="n2" href="#"> <i className="fa-solid fa-layer-group"></i> <Categories></Categories>
+        </a>
         <a className="n2" href="#"><i className="fa-solid fa-cart-shopping"></i>Cart</a>
-        <a className="n2" href="#"><i className="fa-regular fa-user"></i>Login/SignUp</a>
+        <a className="n2" href="#"><i className="fa-regular fa-user"></i><link to="/login">Login/SignUp</link></a>
     </div>
 </header>
 <main>
@@ -194,7 +195,7 @@ const Home = ()=> {
         </figure>
     </div>
 
-    <h1 id="sub_head">Rice</h1>
+    <h1 id="sub_head">Grocery</h1>
         <div className="main_fig">
             <figure >
                <a href=""> <img className="imgs" src="https://st.depositphotos.com/2451847/3181/i/950/depositphotos_31812997-stock-photo-rice-in-gunny-bag-with.jpg"/></a>
@@ -202,26 +203,113 @@ const Home = ()=> {
                 <figcaption>₹ 50/kg</figcaption>
             </figure>
             <figure>
-             <a href="">  <img className="imgs" src="https://thumbs.dreamstime.com/b/rice-sack-bag-white-background-44729981.jpg" /></a>
-                <figcaption>Brown Rice</figcaption>
+             <a href="">  <img className="imgs" src="https://images-na.ssl-images-amazon.com/images/I/71aIVWt58%2BL.SX679.jpg" /></a>
+                <figcaption>Freedom Oil</figcaption>
                 <figcaption>₹ 150/kg</figcaption>
             </figure>
             <figure>
-               <a href=""> <img className="imgs" src="https://previews.123rf.com/images/antpkr/antpkr1601/antpkr160100061/51238321-red-rice-in-sack-bag.jpg" /></a>
-                <figcaption>Black Rice</figcaption>
-                <figcaption>₹ 150/kg</figcaption>
+               <a href=""> <img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.BQ9JkWVKIOSq4eIahlT5AgHaE8&pid=Api&P=0&h=220" /></a>
+                <figcaption>Sugar</figcaption>
+                <figcaption>₹ 40/kg</figcaption>
             </figure>
             <figure>
-               <a href=""> <img className="imgs" src="https://www.forestwholefoods.co.uk/wp-content/uploads/2017/04/Organic-Short-Grain-Brown-Rice-1500px.jpg" /></a>
-                <figcaption>Brown ShortGrain</figcaption>
+               <a href=""> <img className="imgs" src="https://tse2.mm.bing.net/th?id=OIP.JeNpWdtbTzXKPOk8-utMGQHaFZ&pid=Api&P=0&h=220" /></a>
+                <figcaption>Moong Dal</figcaption>
                 <figcaption>₹ 100/kg</figcaption>
             </figure>
             <figure>
-             <a href="">   <img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.njJF2nVksFfbHbzt_w2DMAHaD6&pid=Api&P=0&h=180" /></a>
-                <figcaption>Rose Matt</figcaption>
-                <figcaption>₹ 150/kg</figcaption>
+             <a href="">   <img className="imgs" src="https://5.imimg.com/data5/SELLER/Default/2022/3/WQ/FT/ID/3642811/1kg-tata-salt-packet-1000x1000.jpg" /></a>
+                <figcaption>TATA Salt</figcaption>
+                <figcaption>₹ 50/kg</figcaption>
             </figure>
         </div>
+
+        <h1 id="sub_head">Kitchen</h1>
+        <div className="main_fig">
+            <figure >
+               <a href=""> <img className="imgs" src="https://m.media-amazon.com/images/I/715IH2IbEhL.SL1500.jpg"/></a>
+                <figcaption>Steel Set</figcaption>
+                <figcaption>₹ 3999rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">  <img className="imgs" src="https://i5.walmartimages.com/asr/5fd88e3e-33ed-4e71-aa41-01240c300f0f_1.2ecedf3eb0dc215dfe669fc5a4e97ea0.jpeg" /></a>
+                <figcaption>Non Stick</figcaption>
+                <figcaption>₹ 2500rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://m.media-amazon.com/images/I/611lcgpTRqL.SL1500.jpg" /></a>
+                <figcaption>Idli Cooker</figcaption>
+                <figcaption>₹ 500rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="http://cdn.shopclues.com/images/detailed/5750/268dosatawa_1405482463.png" /></a>
+                <figcaption>Fry Pan</figcaption>
+                <figcaption>₹ 800rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">   <img className="imgs" src="https://5.imimg.com/data5/QE/OE/MY-2831414/non-stick-cookware-set.jpg" /></a>
+                <figcaption>Pans Combo</figcaption>
+                <figcaption>₹ 2500rs</figcaption>
+            </figure>
+        </div>
+        <h1 id="sub_head">Snacks</h1>
+        <div className="main_fig">
+            <figure >
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/491696354/lay-s-american-style-cream-onion-potato-chips-90-g-product-images-o491696354-p590121272-0-202307142033.jpg?im=Resize=(360,360)"/></a>
+                <figcaption>Lays</figcaption>
+                <figcaption>₹ 49rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">  <img className="imgs" src="https://www.jiomart.com/images/product/original/490373600/bingo-achaari-masti-mad-angles-66-g-product-images-o490373600-p490373600-0-202211081536.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Bingo</figcaption>
+                <figcaption>₹ 59rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/491695463/britannia-good-day-cashew-biscuits-1-kg-product-images-o491695463-p590116903-0-202308241215.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>GoodDay</figcaption>
+                <figcaption>₹ 500rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/491417086/lal-classic-mysore-pak-200-g-product-images-o491417086-p491417086-0-202307142033.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Mysore Pak</figcaption>
+                <figcaption>₹ 200rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">   <img className="imgs" src="https://www.jiomart.com/images/product/original/490005201/mountain-dew-2-25-l-product-images-o490005201-p490005201-0-202405171854.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Mountain Dew</figcaption>
+                <figcaption>₹ 60rs/ltr</figcaption>
+            </figure>
+        </div>
+
+        <h1 id="sub_head">Skin Care</h1>
+        <div className="main_fig">
+            <figure >
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/490180137/nivea-caring-lip-balm-original-care-4-8-g-product-images-o490180137-p490180137-0-202405271915.jpg?im=Resize=(360,360)"/></a>
+                <figcaption>Nivea Lipbalm</figcaption>
+                <figcaption>₹ 165rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">  <img className="imgs" src="https://www.jiomart.com/images/product/original/491899823/glow-lovely-advanced-multi-vitamin-cream-110-g-product-images-o491899823-p590084001-0-202306031054.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Glow & Lovley</figcaption>
+                <figcaption>₹ 295rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/490998044/nivea-soft-light-moisturiser-cream-for-face-hands-body-300-ml-product-images-o490998044-p490998044-0-202305301942.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Moisturiser</figcaption>
+                <figcaption>₹ 550rs</figcaption>
+            </figure>
+            <figure>
+               <a href=""> <img className="imgs" src="https://www.jiomart.com/images/product/original/490871345/himalaya-neem-purifying-face-wash-200-ml-0-20210723.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>Facewash</figcaption>
+                <figcaption>₹ 200rs</figcaption>
+            </figure>
+            <figure>
+             <a href="">   <img className="imgs" src="https://www.jiomart.com/images/product/original/590113046/whitetone-face-powder-pearl-75-g-0-20210208.jpg?im=Resize=(360,360)" /></a>
+                <figcaption>White Tone</figcaption>
+                <figcaption>₹ 130rs</figcaption>
+            </figure>
+        </div>
+
 
 
 </main>

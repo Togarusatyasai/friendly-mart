@@ -1,5 +1,5 @@
 import React from "react";
-import "./Vegetable.css";
+import "./Vegetables.css";
 import Nav from "./Nav";
 import Footer from "./Footer";
 
@@ -8,7 +8,6 @@ const Vegetables =()=>{
         <>
         
     <Nav></Nav>
-
     <div className="veges">
             <figure>
               <a href="#"> 
@@ -18,6 +17,7 @@ const Vegetables =()=>{
               <br></br>
               ₹ 100/kg
               </figcaption>
+              <button>Add</button>
             </figure>
             <figure>
               <a href="#">
@@ -27,6 +27,7 @@ const Vegetables =()=>{
               <br></br>
               ₹ 40/kg
               </figcaption>
+              <button>Add</button>
             </figure>
             <figure>
               <a href="#">  
@@ -36,6 +37,7 @@ const Vegetables =()=>{
                 <br></br>
                 ₹ 30/kg
               </figcaption>
+              <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -45,6 +47,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 30/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -54,6 +57,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 60/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -63,6 +67,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 35/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -72,6 +77,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 120/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -81,6 +87,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 50/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -90,6 +97,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 85/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -99,6 +107,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 35/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -108,6 +117,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 210/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -117,6 +127,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 50/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -126,6 +137,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 80/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -135,6 +147,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 90/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -144,6 +157,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 80/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             <figure>
              <a href="#"> 
@@ -153,6 +167,7 @@ const Vegetables =()=>{
              <br></br>
              ₹ 50/kg
              </figcaption>
+             <button>Add</button>
             </figure>
             
             
