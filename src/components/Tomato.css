@@ -1,0 +1,129 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .productinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .product-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product_desc {
+    flex: 2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product_desc1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product_desc1 span {
+    display: block;
+  }
+  
+  .product_desc1 .price {
+    color: #d9534f;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .product_desc1 .mrp {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .product_desc1 .discount {
+    color: #5cb85c;
+    font-weight: bold;
+  }
+  
+  .product_desc2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quantity {
+    margin-bottom: 20px;
+  }
+  
+  .quantity select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .next {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .next div {
+    flex: 1;
+  }
+  
+  .next button,
+  .next input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d9534f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next button:hover,
+  .next input[type='submit']:hover {
+    background-color: #c9302c;
+  }
+  
+  .save-for-later {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .save-for-later button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-for-later button:hover {
+    background-color: #f7f7f7;
+  }
+  
