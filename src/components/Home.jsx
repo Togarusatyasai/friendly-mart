@@ -1,5 +1,7 @@
  import React from "react";
 import "./Home.css";
+import "./Dropdown";
+import Dropdown from "./Dropdown";
 const Home = ()=> {
     return(
         <>
@@ -13,7 +15,8 @@ const Home = ()=> {
     </div>
     <div className="nav2">
         <a className="n2" href="http://localhost:5173/#"><i className="fa-solid fa-house"></i>Home</a>
-        <a className="n2" href="#"><i className="fa-solid fa-layer-group"></i>Categories</a>
+        <a className="n2" href="#">
+            <i className="fa-solid fa-layer-group"></i><Dropdown></Dropdown></a>
         <a className="n2" href="#"><i className="fa-solid fa-cart-shopping"></i>Cart</a>
         <a className="n2" href="#"><i className="fa-regular fa-user"></i>Login/SignUp</a>
     </div>

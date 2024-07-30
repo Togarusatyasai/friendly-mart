@@ -1,7 +1,10 @@
 import "./Grocery.css"
+import Footer from "./Footer";
+import Nav from "./Nav";
 const Fruits = () => {
     return(
         <>
+        <Nav></Nav>
             <div className="Grocery">
             <figure>
               <a href="#"> 
@@ -151,6 +154,7 @@ const Fruits = () => {
             
             
             </div>
+            <Footer></Footer>
         </>
     )
 }
