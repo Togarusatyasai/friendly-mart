@@ -25,27 +25,27 @@ const Home = ()=> {
     <h1 id="sub_head">Vegetables</h1>
     <div className="main_fig">
         <figure>
-            <a href="http://localhost:5173/" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.OBKKA27v0VUeDTRMhzG_gAHaFX&pid=Api&P=0&h=180" /></a>
+            <a href="" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.OBKKA27v0VUeDTRMhzG_gAHaFX&pid=Api&P=0&h=180" /></a>
             <figcaption>Tomato's</figcaption>
             <figcaption>₹ 100/kg</figcaption>
         </figure>
         <figure>
-            <a href="http://localhost:5173/" ><img className="imgs" src="http://seed2plant.in/cdn/shop/products/greenbrinjalseeds.jpg?v=1603446035" /></a>
+            <a href="" ><img className="imgs" src="http://seed2plant.in/cdn/shop/products/greenbrinjalseeds.jpg?v=1603446035" /></a>
             <figcaption>Brinjal</figcaption>
             <figcaption>₹ 40/kg</figcaption>
         </figure>
         <figure>
-            <a href="http://localhost:5173/" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.jmIWiX6tjIisDDykR3rWGgHaHa&pid=Api&P=0&h=180" /></a>
+            <a href="" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.jmIWiX6tjIisDDykR3rWGgHaHa&pid=Api&P=0&h=180" /></a>
             <figcaption>Cabbage</figcaption>
             <figcaption>₹ 30/kg</figcaption>
         </figure>
         <figure>
-            <a href="http://localhost:5173/" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.qbtfTieEpOA4y66SY0zvEAHaHa&pid=Api&P=0&h=180" /></a>
+            <a href="" ><img className="imgs" src="https://tse4.mm.bing.net/th?id=OIP.qbtfTieEpOA4y66SY0zvEAHaHa&pid=Api&P=0&h=180" /></a>
             <figcaption>Cauliflower</figcaption>
             <figcaption>₹ 30/kg</figcaption>
         </figure>
         <figure>
-            <a href="http://localhost:5173/" ><img className="imgs" src="https://tse1.mm.bing.net/th?id=OIP.8m1P9KMHaWO2Wc_6iMGXiwAAAA&pid=Api&P=0&h=180" /></a>
+            <a href="" ><img className="imgs" src="https://tse1.mm.bing.net/th?id=OIP.8m1P9KMHaWO2Wc_6iMGXiwAAAA&pid=Api&P=0&h=180" /></a>
             <figcaption>Bottle gourd</figcaption>
             <figcaption>₹ 60/kg</figcaption>
         </figure>
